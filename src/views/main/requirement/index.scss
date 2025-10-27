@@ -1,0 +1,28 @@
+/*需求管理*/
+.mainBox{
+    .avatarBox{
+        width: 60px;
+        border-radius: 50%;
+    }
+    .picBox{
+        width: 70px;
+    }
+    .tagListBox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .btnGroupBox{
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: flex-end;
+        right: 0;
+        top: 0;
+        .btnBox{
+            margin-left: 20px;
+        }
+    }
+}

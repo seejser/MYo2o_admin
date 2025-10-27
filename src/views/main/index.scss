@@ -1,0 +1,29 @@
+/*主页面*/
+.copy-right{
+	padding: 12px 0 0 0;
+    text-align: center;
+    color: #999;
+
+}
+.mainContentBox{
+	width: 100%;
+	background:#FFF;
+	border-radius: 2px;
+	padding:0px 15px;
+	box-sizing: border-box;
+}
+@media screen and (max-width:768px){
+
+	.ant-layout-content{
+		margin-top: 64px;
+	}
+	.siderLayoutBox{
+		position: fixed;
+		left: 0;
+		z-index: 3;
+		top: 64px;
+		&.hidden{
+			left: -200px;
+		}
+	}
+}
