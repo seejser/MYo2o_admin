@@ -7,7 +7,7 @@ const {
 
 const TRANSACTION_TAG_LIST = [
     {
-        name : '工签服务',
+        name : '工签咨询',
         value: 1,
         key: "WorkPermitService",
     },
@@ -17,7 +17,7 @@ const TRANSACTION_TAG_LIST = [
         key: "DiplomaticService",
     },
     {
-        name : '劳务招聘',
+        name : '劳务派遣',
         value: 3,
         key: "LabourRecruitment",
     },
@@ -32,7 +32,7 @@ const TRANSACTION_TAG_LIST = [
         key: "ITServices",
     },
     {
-        name : '企业注册',
+        name : '企业咨询',
         value: 6,
         key: "BusinessRegistration",
     },
