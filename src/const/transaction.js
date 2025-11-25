@@ -17,7 +17,7 @@ const TRANSACTION_TAG_LIST = [
         key: "DiplomaticService",
     },
     {
-        name : '劳务派遣',
+        name : '商业信息',
         value: 3,
         key: "LabourRecruitment",
     },
